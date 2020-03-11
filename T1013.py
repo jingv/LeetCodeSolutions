@@ -20,7 +20,7 @@ class Solution:
         left, right = 0, len(A)-1
         item1_sum, item2_sum = A[left], A[right]
         # 将A分为3段，[:left+1] [left+1: right] [right-1:]
-        # 保证A[left+1:right]中存在数值        
+        # 保证A[left+1:right]中存在数值
         while left < right-1:
             if item1_sum != avg:
                 left += 1
