@@ -8,6 +8,7 @@ class Solution:
             return 1
         else:
             return self.fib(n-2) + self.fib(n-1)
+
     def fib2(self, n):
         '''
         循环
