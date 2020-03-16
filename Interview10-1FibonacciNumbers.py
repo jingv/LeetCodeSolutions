@@ -21,7 +21,7 @@ class Solution:
         while count != n:
             first, second = second, first+second
             count += 1
-        return second%1000000007
+        return second % 1000000007
 
 
 def main():
