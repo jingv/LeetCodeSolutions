@@ -25,7 +25,8 @@ class Solution:
             while True:
                 tx = st + step * dx[i]
                 ty = ed + step * dy[i]
-                if tx < 0 or tx >= 8 or ty < 0 or ty >= 8 or board[tx][ty] == "B":
+                if tx < 0 or tx >= 8 or ty < 0 or ty >= 8 or \
+                        board[tx][ty] == "B":
                     break
                 if board[tx][ty] == "p":
                     cnt += 1
