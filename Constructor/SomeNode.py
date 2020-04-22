@@ -16,6 +16,3 @@ class TreeNode():
         self.element = element
         self.left = None
         self.right = None
-
-    def sayhi(self):
-        print('hi')
