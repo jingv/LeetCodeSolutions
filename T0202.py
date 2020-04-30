@@ -13,6 +13,8 @@
 
 class Solution():
     def isHappy(self, n):
+        # 执行用时 :44 ms, 在所有 Python3 提交中击败了65.43%的用户
+        # 内存消耗 :13.7 MB, 在所有 Python3 提交中击败了9.09%的用户
         def forSum(num):
             result = 0
             while num:
