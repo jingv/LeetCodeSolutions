@@ -31,7 +31,7 @@ class Solution:
                 stack.append((node.left, depth+1))
                 stack.append((node.right, depth+1))
 
-        return [rightmost_value_at_depth[depth] for depth in range(max_depth+1)]      
+        return [rightmost_value_at_depth[depth] for depth in range(max_depth+1)]
 
 
 def main():
