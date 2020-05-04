@@ -24,8 +24,8 @@ class Solution():
 
 
 def main():
-    # tests = ["abcabcbb", "pwwkew", "bbbbbbb", "1", "aa"]
-    tests = ["aa"]
+    tests = ["abcabcbb", "pwwkew", "bbbbbbb", "1", "aa"]
+    # tests = ["aa"]
     solution = Solution()
     for test in tests:
         print(solution.lenthOfLongstSubString(test))

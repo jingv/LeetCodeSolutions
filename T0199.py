@@ -37,13 +37,9 @@ class Solution:
 def main():
     tests = [[1, 2, 3, None, 5, None, 4]]
     binary_tree = BinaryTree.BinaryTree()
-    binary_tree.add(1)
-    binary_tree.add(2)
-    binary_tree.add(3)
-    binary_tree.add(None)
-    binary_tree.add(5)
-    binary_tree.add(None)
-    binary_tree.add(4)
+    for item_list in tests:
+        for item in item_list:
+            binary_tree.add(item)
     # binary_tree.breadth_trval()
 
     solution = Solution()
