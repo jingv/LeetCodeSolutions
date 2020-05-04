@@ -6,7 +6,7 @@ class Solution:
 def main():
     tests = [
           ("barfoothefoobarman", ["foo","bar"]), 
-          ("wordgoodgoodgoodbestword", ["word","good","best","word"])
+          ("wordgoodgoodgoodbestword", ["word", "good", "best", "word"])
         ]
     solution = Solution()
     for s, words in tests:

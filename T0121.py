@@ -27,7 +27,6 @@ class Solution:
                     result = max(result, profit)
         return result
 
-
     def maxProfit2(self, prices):
         # 最低价格
         min_price= max(prices) if prices else 0
