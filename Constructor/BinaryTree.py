@@ -13,8 +13,6 @@ from .SomeNode import TreeNode as Node
 
 
 class BinaryTree():
-    root = None
-
     def __init__(self):
         self.root = None
 
