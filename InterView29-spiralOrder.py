@@ -13,10 +13,13 @@
 
 class Solution():
     def spiralOrder(self, matrix):
+        # 执行用时 :48 ms, 在所有 Python3 提交中击败了75.27%的用户
+        # 内存消耗 :13.9 MB, 在所有 Python3 提交中击败了100.00%的用户
         if not matrix or not matrix[0]:
             return []
-        left, right, top, bottom, result = 0, len(matrix[0]), len(matrix), 0, []
-        while left <= right and bottom <= top:
+        left, right, top, bottom, result = 0, len(
+            matrix[0]), len(matrix), 0, []
+        while left < right and bottom < top:
             # 下横向
             for i in range(left, right):
                 result.append(matrix[bottom][i])
@@ -44,7 +47,9 @@ def main():
         [[1]],
         [[]],
         [[1], [2], [3]],
-        [[1, 2, 3]]
+        [[1, 2, 3]],
+        [[1, 2, 3], [4, 5, 6]],
+        [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]]
     ]
     solution = Solution()
     for test in tests:
