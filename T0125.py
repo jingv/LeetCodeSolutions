@@ -32,7 +32,7 @@ def main():
         "race a car",
         "0p",
         "",
-        '1',
+        '1',  
     ]
     solution = Solution()
     for test in tests:
