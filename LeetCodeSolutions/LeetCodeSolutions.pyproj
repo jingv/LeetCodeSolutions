@@ -106,6 +106,9 @@
     <Compile Include="T0543.py" />
     <Compile Include="T0560.py" />
     <Compile Include="T0647.py" />
+    <Compile Include="T0657.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="T0718.py" />
     <Compile Include="T0733.py" />
     <Compile Include="T0739.py" />
