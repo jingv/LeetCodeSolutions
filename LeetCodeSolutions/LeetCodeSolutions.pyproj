@@ -72,6 +72,8 @@
     <Compile Include="LeetCode001_099\T0093.py" />
     <Compile Include="LeetCode001_099\T0096.py" />
     <Compile Include="LeetCode001_099\T0098.py" />
+    <Compile Include="LeetCode1000_1099\T1013.py" />
+    <Compile Include="LeetCode1000_1099\T1071.py" />
     <Compile Include="LeetCode100_199\T0102.py" />
     <Compile Include="LeetCode100_199\T0108.py" />
     <Compile Include="LeetCode100_199\T0110.py" />
@@ -85,6 +87,44 @@
     <Compile Include="LeetCode100_199\T0169.py" />
     <Compile Include="LeetCode100_199\T0198.py" />
     <Compile Include="LeetCode100_199\T0199.py" />
+    <Compile Include="LeetCode1100_1199\T1103.py" />
+    <Compile Include="LeetCode1100_1199\T1111.py" />
+    <Compile Include="LeetCode1100_1199\T1160.py" />
+    <Compile Include="LeetCode200_299\T0200.py" />
+    <Compile Include="LeetCode200_299\T0202.py" />
+    <Compile Include="LeetCode200_299\T0209.py" />
+    <Compile Include="LeetCode200_299\T0221.py" />
+    <Compile Include="LeetCode200_299\T0225.py" />
+    <Compile Include="LeetCode200_299\T0289.py" />
+    <Compile Include="LeetCode300_399\T0309.py" />
+    <Compile Include="LeetCode300_399\T0322.py" />
+    <Compile Include="LeetCode300_399\T0332.py" />
+    <Compile Include="LeetCode300_399\T0336.py" />
+    <Compile Include="LeetCode300_399\T0343.py" />
+    <Compile Include="LeetCode300_399\T0378.py" />
+    <Compile Include="LeetCode300_399\T0392.py" />
+    <Compile Include="LeetCode400_499\T0409.py" />
+    <Compile Include="LeetCode400_499\T0415addStrings.py" />
+    <Compile Include="LeetCode400_499\T0491.py" />
+    <Compile Include="LeetCode500_599\T0529.py" />
+    <Compile Include="LeetCode500_599\T0542.py" />
+    <Compile Include="LeetCode500_599\T0543.py" />
+    <Compile Include="LeetCode500_599\T0557.py" />
+    <Compile Include="LeetCode500_599\T0560.py" />
+    <Compile Include="LeetCode600_699\T0647.py" />
+    <Compile Include="LeetCode600_699\T0657.py" />
+    <Compile Include="LeetCode600_699\T0696.py" />
+    <Compile Include="LeetCode700_799\T0718.py" />
+    <Compile Include="LeetCode700_799\T0733.py" />
+    <Compile Include="LeetCode700_799\T0739.py" />
+    <Compile Include="LeetCode800_899\T0836.py" />
+    <Compile Include="LeetCode800_899\T0841.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LeetCode900_999\T0912.py" />
+    <Compile Include="LeetCode900_999\T0914.py" />
+    <Compile Include="LeetCode900_999\T0994.py" />
+    <Compile Include="LeetCode900_999\T0999AvaliableCapturesForRook.py" />
     <Compile Include="T0003.py" />
     <Compile Include="T0005.py" />
     <Compile Include="T0008.py" />
@@ -177,7 +217,17 @@
     <Folder Include="Constructor\__pycache__\" />
     <Folder Include="Interview\" />
     <Folder Include="LeetCode001_099\" />
+    <Folder Include="LeetCode1000_1099\" />
     <Folder Include="LeetCode100_199\" />
+    <Folder Include="LeetCode1100_1199\" />
+    <Folder Include="LeetCode200_299\" />
+    <Folder Include="LeetCode300_399\" />
+    <Folder Include="LeetCode400_499\" />
+    <Folder Include="LeetCode500_599\" />
+    <Folder Include="LeetCode600_699\" />
+    <Folder Include="LeetCode700_799\" />
+    <Folder Include="LeetCode800_899\" />
+    <Folder Include="LeetCode900_999\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Constructor\__pycache__\BinaryTree.cpython-37.pyc" />
