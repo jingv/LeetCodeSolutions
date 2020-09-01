@@ -105,6 +105,9 @@
     <Compile Include="LeetCode300_399\T0392.py" />
     <Compile Include="LeetCode400_499\T0409.py" />
     <Compile Include="LeetCode400_499\T0415addStrings.py" />
+    <Compile Include="LeetCode400_499\T0486.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="LeetCode400_499\T0491.py" />
     <Compile Include="LeetCode500_599\T0529.py" />
     <Compile Include="LeetCode500_599\T0542.py" />
